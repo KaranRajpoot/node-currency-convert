@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node currency-convertor/convertor.js"
   },
   "author": "karan singh",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
-    "express": "^4.16.3"
-  }
+    "axios": "^0.18.0"
+    }
 }
